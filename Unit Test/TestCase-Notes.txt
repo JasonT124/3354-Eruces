@@ -1,0 +1,11 @@
+4. Test plan for software
+
+This program tests the withdraw function in our online banking application. The simulation assumes that the user currently has $1000 in their account, but in the real application, the program would provide other methods that allows more generalization. 
+
+The withdraw() method takes in a parameter that represents the amount that the user wants to withdraw and returns true or false depending on whether the withdrawal was successful or not. 
+
+JUnit testing:
+- testCorrect() attempts to withdraw $200 from the account, which should be successful.
+- testIncorrect() attempts to withdraw $2000 from the account, which should not be successful. 
+
+The results of the testing are attached as images in the zip file.
